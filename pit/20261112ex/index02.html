@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- -->
+    <form action="서버URI" method="get" name="signupfrom">
+      ID:  <input type="text" name="memId" placeholder="Input ID"> <br>
+      pw: <input type="password" name="mempw" placeholder="Input Pw"> <br>
+      MATL <input type="text" name="mamMail" placeholder="Input MATL"> <br>
+      PHONE <input type="text" name="memPHone" placeholder="Input PHONE"> <br>
+      HOBBY:
+          축구<input type="checkbox" name="memHoddy"> &nbsp; &nbsp;
+          야구<input type="checkbox" name="memHoddy"> &nbsp; &nbsp;
+          배구<input type="checkbox" name="memHoddy"> &nbsp; &nbsp;
+          농구<input type="checkbox" name="memHoddy"> &nbsp; &nbsp;
+          족구<input type="checkbox" name="memHoddy"> &nbsp; &nbsp;
+          <br>
+    성구분:
+       남성<input type="radio" name="memGender" value="M"> &nbsp; &nbsp;
+       여성<input type="radio" name="memGender" value="w"> &nbsp; &nbsp;
+       <br>
+    국가:
+    <select name="memCountry">
+        <option value="kor">대한민국</option>
+        <option value="usa">미국</option>
+        <option value="chi">중국</option>
+        <option value="eng">영국</option>
+       </select>
+       <br>
+    기타:
+    <textarea name="memEtc"></textarea> <br>
+    <input type="submit" value="SIGNUP">
+    <input type="reset" value="RESET">
+
+
+    </form>
+</body>
+</html>
