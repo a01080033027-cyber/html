@@ -10,8 +10,10 @@
     <form action="서버URI" method="get" name="signupfrom">
       ID:  <input type="text" name="memId" placeholder="Input ID"> <br>
       pw: <input type="password" name="mempw" placeholder="Input Pw"> <br>
-      MATL <input type="text" name="mamMail" placeholder="Input MATL"> <br>
-      PHONE <input type="text" name="memPHone" placeholder="Input PHONE"> <br>
+      MATL <input type="email" name="mamMail" placeholder="Input MATL"> <br>
+      PHONE: <select name="memPhone01">
+        <option> 010 </option>
+        </select><input type="email" name="memPhone" placeholder="Input PHONE">  <br>
       HOBBY:
           축구<input type="checkbox" name="memHoddy"> &nbsp; &nbsp;
           야구<input type="checkbox" name="memHoddy"> &nbsp; &nbsp;
@@ -22,6 +24,7 @@
     성구분:
        남성<input type="radio" name="memGender" value="M"> &nbsp; &nbsp;
        여성<input type="radio" name="memGender" value="w"> &nbsp; &nbsp;
+       기타<input type="radio" name="memGender" value="기타"> &nbsp; &nbsp;
        <br>
     국가:
     <select name="memCountry">
@@ -33,8 +36,16 @@
        <br>
     기타:
     <textarea name="memEtc"></textarea> <br>
+    <input type="datetime-local">
+    <br>
+    <input type="color" value="#f00">
+    <br>
+    <input type="file">
+    <br>
     <input type="submit" value="SIGNUP">
     <input type="reset" value="RESET">
+     <input type="button" value="BUTTON">
+     <template nonce="memEts"></template>
 
 
     </form>
